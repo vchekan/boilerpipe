@@ -202,9 +202,14 @@
   </dependencies>
 
   <modules>
-    <module>nekohtml</module>
-    <module>nekohtml-relocated</module>
     <module>boilerpipe-common</module>
     <module>boilerpipe-demo</module>
   </modules>
+
+  <distributionManagement>
+      <snapshotRepository>
+          <id>snapshots</id>
+          <url>http://nexus.cb.ntent.com/nexus/content/repositories/snapshots</url>
+      </snapshotRepository>
+  </distributionManagement>
 </project>
