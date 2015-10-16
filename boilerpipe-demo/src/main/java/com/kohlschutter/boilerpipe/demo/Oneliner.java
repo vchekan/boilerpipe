@@ -29,9 +29,11 @@ import com.kohlschutter.boilerpipe.extractors.ArticleExtractor;
  */
 public class Oneliner {
   public static void main(final String[] args) throws Exception {
+      String urlArg = args[0];
     final URL url =
         new URL(
-            "https://blog.openshift.com/day-18-boilerpipe-article-extraction-for-java-developers/"
+                urlArg
+            //"https://blog.openshift.com/day-18-boilerpipe-article-extraction-for-java-developers/"
         // "http://www.dn.se/nyheter/vetenskap/annu-godare-choklad-med-hjalp-av-dna-teknik"
         );
 
